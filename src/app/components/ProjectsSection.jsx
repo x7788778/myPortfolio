@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "https://huodong.taobao.com/wow/service-market/act/hepai?wh_biz=tm",
   },
   {
     id: 4,

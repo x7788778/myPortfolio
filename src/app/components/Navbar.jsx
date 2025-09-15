@@ -18,6 +18,10 @@ const navLinks = [
     title: "Contact",
     path: "#contact",
   },
+  {
+    title: "blog",
+    path: "https://x7788778.github.io/Docusaurus-page/",
+  },
 ];
 
 const Navbar = () => {
@@ -30,7 +34,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          CHAOPIN
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
