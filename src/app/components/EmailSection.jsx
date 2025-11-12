@@ -55,7 +55,9 @@ const EmailSection = () => {
           {/* I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you! */}
-          我当前正在寻找新的机会，收件箱总是开着的。无论你是有问题还是只是想打个招呼，看到都会给你回复！
+          {/* 我当前正在寻找新的机会，收件箱总是开着的。无论你是有问题还是只是想打个招呼，看到都会给你回复！ */}
+          {/* 代办 https://resend.com/  设置form email */}
+          测试中，麻烦哥哥/姐姐移步自己邮箱发送。小弟的邮箱：156606672@qq.ccom
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/x7788778/">

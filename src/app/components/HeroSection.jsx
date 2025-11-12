@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              你好, 我擅长{" "}
+              你好, {" "}
             </span>
             <br></br>
             <TypeAnimation
@@ -39,7 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            遇到不懂的知识应当觉得兴奋，无论工作与否，始终与代码相伴
+            在这个站点中我将分享自己的一些经历和体会，你的到来将使它更加完整，鞠躬.jpg
           </p>
           <div>
             <Link

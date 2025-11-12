@@ -7,19 +7,19 @@ import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
   {
-    title: "About",
+    title: "关于我",
     path: "#about",
   },
   {
-    title: "Projects",
+    title: "项目",
     path: "#projects",
   },
   {
-    title: "Contact",
+    title: "联系方式",
     path: "#contact",
   },
   {
-    title: "blog",
+    title: "博客",
     path: "https://x7788778.github.io/Docusaurus-page/",
   },
 ];
