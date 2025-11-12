@@ -19,7 +19,7 @@ const projectsData = [
     title: "nestjs电商后端demo",
     description: "基于nestjs的电商后台demo",
     image: "/images/projects/nest.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Other"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "小商品宣传集市",
     description: "一个简单的pc端商品展示站点",
     image: "/images/projects/mama.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "https://huodong.taobao.com/wow/service-market/act/hepai?wh_biz=tm",
   },
@@ -97,8 +97,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Other"
+          isSelected={tag === "Other"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
