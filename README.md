@@ -28,3 +28,6 @@ The following dependencies are required for this project:
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
 
+
+## deploy
+已经管理github,更新到线长仓库，next框架同源平台 Vercel同步自动更新。
