@@ -11,7 +11,7 @@ const projectsData = [
     description: "chaopin的小站",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/x7788778/myPortfolio",
     previewUrl: "/",
   },
   {
@@ -20,7 +20,7 @@ const projectsData = [
     description: "基于nestjs的电商后台demo",
     image: "/images/projects/nest.png",
     tag: ["All", "Other"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/x7788778/backend-encomerce-npm",
     previewUrl: "/",
   },
   {
