@@ -7,39 +7,43 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "个人页面",
-    description: "chaopin的小站",
-    image: "/images/projects/1.png",
+    title: "个人作品集页面",
+    description: "使用Next.js 13+和Tailwind CSS构建的响应式个人展示网站，实现了动态项目筛选、滚动动画和响应式布局。采用App Router架构，优化了页面加载性能和SEO表现。",
+    image: "/images/projects/me.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/x7788778/myPortfolio",
     previewUrl: "/",
+    technologies: ["Next.js", "Tailwind CSS", "Framer Motion", "React"]
   },
   {
     id: 2,
     title: "nestjs电商后端demo",
-    description: "基于nestjs的电商后台demo",
+    description: "实现用户认证、商品管理、订单处理等核心模块。技术上采用轻量的 sqlite3 数据库，通过 Redis 缓存商品库存查询与信息展示以减少数据库压力；借助 RabbitMQ 异步处理库存扣减等关键操作，避免阻塞主流程；服务支持 Docker 容器化部署，便于环境管理与快速扩展。",
     image: "/images/projects/nest.png",
     tag: ["All", "Other"],
     gitUrl: "https://github.com/x7788778/backend-encomerce-npm",
     previewUrl: "/",
+    technologies:['Nest.js','Docker','Redis','RabbitMQ','Sqlite3/TypeORM']
   },
   {
     id: 3,
     title: "模拟聊天软件",
-    description: "Project 3 description",
+    description: "基于websoket协议，express搭建的实时聊天软件，有基础的注册登录用户间通信功能，前端使用的老版本react",
     image: "/images/projects/chatapp.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "",
+    technologies:['react16','websoket','express']
   },
   {
     id: 4,
     title: "小商品宣传集市",
-    description: "一个简单的pc端商品展示站点",
+    description: "一个基于所属单位自研在线web平台搭建的纯前端商品展示站点",
     image: "/images/projects/mama.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "https://huodong.taobao.com/wow/service-market/act/hepai?wh_biz=tm",
+    technologies:['js/html/css']
   },
   // {
   //   id: 5,
@@ -117,6 +121,7 @@ const ProjectsSection = () => {
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
+              technologies={project.technologies}
             />
           </motion.li>
         ))}
