@@ -53,7 +53,7 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about-image.png" width={500} height={500} alt="About me" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">关于我</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">关于我 </h2>
           <p className="text-base lg:text-lg">
             
             一名JS全栈开发者，致力于打造快速响应的交互式web应用程序。有使用js/css/html，react，redux，nodejs，postgresql，git的经验，并不断寻求扩展我的知识和技能，有终身学习的觉悟。我是一个有团队精神的人，很乐于与其他人一起工作，创造出令人惊叹的应用程序。
